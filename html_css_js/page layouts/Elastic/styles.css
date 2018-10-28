@@ -1,0 +1,62 @@
+#header {
+	width:81em;
+	position:absolute;
+	left:0em;
+	height:5em;
+	background-color:#84ADC1;
+}
+#main{
+	font-size:1.2vw;
+}
+#body {
+	width:80em;
+}
+
+#left-img{
+	width:12em; 
+	height:18em;
+}
+
+#links {
+	float:left;
+	height:60em;
+	width:7em;
+}
+.links {
+	padding:0.1em;
+	font-size:2vw;
+	
+	-webkit-transition-duration: 1s;
+	-webkit-transition-property:all;
+	transition:left 1s;
+	text-decoration:none;
+	background-color:gold;
+}
+#link1 {
+	padding-right:1.5em;
+	position:absolute;
+	top: 5em;
+	left:-3em;
+}
+
+#link2 {
+	padding-right:1em;
+	position:absolute;
+	top:9em;
+	left:-3.3em;
+}
+#link1:hover {
+	left:0em;
+}
+
+#link2:hover {
+	left:0em;
+}
+
+#left-img {
+	display:block;
+	float:right;
+}
+#para3{
+	width: 70em;
+}

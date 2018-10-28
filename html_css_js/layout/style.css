@@ -1,0 +1,33 @@
+.container{
+	border:2px solid black;	
+	height:30%;
+	width:100%;
+	overflow:hidden;
+	min-width:300px;
+	font-size:20px;
+}
+
+.sub1{
+	background-color:#900C3F;
+	float:left;
+	width:100px;
+	height:200px;
+	
+}
+
+.sub2{
+	width:auto;
+	overflow:hidden;
+	font-size:20px;
+}
+.sub2 p{
+	width:1000px;
+	background-color:#C70039  ;
+}
+.sub3{
+	background-color:#581845;
+	float:right;
+	height:200px;
+	width:100px;
+	}
+	

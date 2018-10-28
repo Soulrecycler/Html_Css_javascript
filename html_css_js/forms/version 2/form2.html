@@ -1,0 +1,97 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+		<script src="form2.js"></script>
+</head>
+<body>
+<h2 class="header">Goa University</h2>
+
+<div class="form">
+
+	<form class="formClass" id="myForm" name="form1" method="POST" onsubmit="submitForm();event.preventDefault()">
+	
+		<div class="formContent">
+			<label>Roll No:</label>
+			<input id="rollno" class="inputContent" type="text" value="" pattern="MCA[0-9]{4}" placeholder="Enter Roll No" name="rollno" required>
+		</div>
+		
+		<div class="formContent">
+			<label>Name:</label>
+			<input id="name" class="inputContent" type="text" placeholder="Enter Your Name" name="studname" required>
+		</div>
+		
+		<div class="formContent">
+			<label>Date of Birth:</label> 
+			<input class="inputContent bdate" type="date" name="bdate" required>
+		</div>
+		
+		<div class="formContent">
+			<label>Mobile:</label> 
+			<input class="inputContent" type="text" placeholder="Enter Mobile Number" name="mob" maxlength="10">
+		</div>
+		
+		<div class="formContent">
+			<label class="radiobut" >Gender:</label>
+					<input id="radiobtn1" type="radio" name="gender" value="Male" onchange="radioFunction(this)"> Male
+					<input id="radiobtn2" type="radio" name="gender" value="Female" onchange="radioFunction(this)"> Female
+					<span id="display"></span>
+		</div>	
+		
+		<div class="formContent">
+			<label>City:</label> 
+				<input class="inputContent cityclass" list="cities" name="city" placeholder="Enter City Name">
+				  <datalist id="cities">
+					<option value="Margao">
+					<option value="Panjim">
+					<option value="Ponda">
+					<option value="Mapusa">
+					<option value="Vasco">
+				  </datalist>
+		</div>
+
+		<div class="formContent">		
+			<label>Paper:</label> 	
+					<select id="paperOptions" class="inputContent selectType" name="papers" onChange="DisableBox()" required>
+					  <option value="NULL">Choose Your Paper</option>
+					  <option value="Web Technology">Web Technology</option>
+					  <option value="IOT">IOT</option>
+					  <option value="Portuguese">Portuguese</option>
+					  <option value="Software eng">Software eng</option>
+					  <option value="Java">Java</option>
+					</select>
+		</div>
+		
+		<div class="formContent">
+			<label>Grade:</label> 
+					<select id="gradeOptions" disabled class="gradeClass" name="grades" required>
+					  <option value="AA">AA</option>
+					  <option value="AB">AB</option>
+					  <option value="BB">BB</option>
+					  <option value="BC">BC</option>
+					</select>
+		</div>  
+		
+		<div class="formContent">
+			<button  class="buttonClass" type="reset">Reset</button>
+			
+			<button class="buttonClass" id="submit" type="submit">Submit</button>
+		</div>	  
+	</form>
+</div>
+
+<div class="table">
+		<table id="myTable">
+			<tr>
+				<th>Roll No</th>
+				<th>Name</th> 
+				<th>Paper</th>
+				<th>Grade</th>
+			</tr>
+			
+		</table>
+</div>
+	
+	
+	
+</body>
+</html>

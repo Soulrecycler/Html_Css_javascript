@@ -1,0 +1,16 @@
+#main{
+	margin-left:450px;
+	border-color:black;
+	border-style:solid;
+	position:absolute;
+	width: 400px;
+	height:400px;
+	overflow:hidden; /*Hides the overflow part which comes outside the div*/
+}
+
+img{
+	position:relative; /*To drag the image */
+	cursor:move;
+	width:600px;
+	height:600px;
+}

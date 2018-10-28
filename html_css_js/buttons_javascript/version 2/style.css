@@ -1,0 +1,36 @@
+.pic{
+	display:none;
+	border:1px solid black;
+	padding-left:20px;
+	width:92%;
+	height:50%;
+}
+
+#dropdown{
+	border:1px solid black;
+	color:white;
+	background-color:red;
+	font-weight: bold;
+	}
+
+.symbol{
+	float:right;
+	padding-right:20px;
+}
+
+#container{
+	width:20%;
+}
+
+div p{
+	padding-left:20px;
+	}
+	
+#dropdown:hover{
+	cursor:pointer;
+}
+
+img{
+	width:200px;
+	height:600px;
+}

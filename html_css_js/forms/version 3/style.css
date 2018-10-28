@@ -1,0 +1,81 @@
+.formContent{
+	padding:12px;
+	color: white;
+}
+label{
+	margin-right:50px;
+}
+.inputContent{
+	padding:5px;
+	float:right;
+	margin-right:1000px;
+}
+
+.selectType{
+	padding-right:60px;
+}
+
+.header{
+	font-size:35px;
+	text-align:center;
+	border-bottom: 3px solid white;
+	color:white;
+}
+
+.bdate{
+	padding-right:32px;
+}
+
+.formClass{
+	font-size:20px;
+}
+
+.radiobut{
+	margin-right:80px;
+}
+
+.cityclass{
+	padding-right:9px;
+}
+
+.gradeClass{
+	padding:5px;
+	padding-right:12px;
+	float:right;
+	margin-right:1130px;
+}
+
+.buttonClass{
+	padding:10px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+td,th{
+	border:2px solid white;
+	padding:5px;
+	color: white;
+}
+
+.table{
+	float:right;
+	margin-top:-390px;
+	margin-right:50px;
+}
+
+.form{
+	float:left;
+	
+}
+
+#display{
+	margin:70px;
+	text-decoration:underline
+}
+
+
+body{
+	background-image:url("1.jpg");
+}

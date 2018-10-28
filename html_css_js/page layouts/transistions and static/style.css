@@ -1,0 +1,74 @@
+body,html{
+	margin:0;
+	background-image: url("2.jpg");
+
+}
+
+.container {
+width: 1300px;
+  margin: 0 auto;
+}
+
+.header{
+	background-color:#DF0707  ;
+	height:auto;
+	text-align:center;
+	font-size:4em;
+}
+
+.picture p{
+	float:left;
+	font-family: Comic Sans MS;
+	text-align: justify;
+}
+
+.picture img{
+	float:right;
+	width:300px;
+	border:2px solid black;
+	margin-left:10px;
+}
+
+.nav{
+	float:left;
+}
+
+.nav a{
+	position: absolute;
+    left: -300px;
+	transition: 0.5s;
+    width: 300px;
+    font-size: 25px;
+    color: white;
+	text-decoration: none;
+	text-align:center;
+	font-family: Comic Sans MS;
+	padding:15px;
+}
+
+.nav a:hover {
+    left: 0;
+}
+
+#about{
+	background-color:red;
+	top:200;
+}
+
+#Fans{
+	background-color:blue;
+	top:300;
+}
+
+#Contact{
+	background-color:green;
+	top:400;
+}
+
+#blah{
+	background-color:purple;
+	top:500;
+}
+p{
+	color: white;
+}

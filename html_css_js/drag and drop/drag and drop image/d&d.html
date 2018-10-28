@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<header> Text Drag and Drop</header>>
+	<head>
+		<link rel="stylesheet" href="dad.css">
+	</head>
+	<script type="text/javascript">
+		function Dropitlikeitshot(e){
+				e.preventDefault();
+		}
+		function dragmee(e){
+			e.dataTransfer.setData("text", e.target.id);
+		}
+		function drop(e) {
+			e.preventDefault();
+			var data = e.dataTransfer.getData("text");
+			e.target.appendChild(document.getElementById(data));
+		}
+		function changeColor(ele){		
+			
+			ele.classList.toggle("mystyle");			
+		}
+	</script>
+
+<div id="box1" ondrop="drop(event)"><img id="drag1" src="1.jpg" draggable="true" ondragstart="dragmee(event)"></div></div>
+<div id="box2" ondragenter="changeColor(this)" ondragleave="changeColor(this)"></div>
+<div id="box3" ondrop="drop(event)" ondragover="Dropitlikeitshot(event)"></div>
+<body>
+
+</body>
+</html>
